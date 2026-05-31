@@ -4,7 +4,8 @@
   "description": "��#\u0000 \u0000T\u0000y\u0000p\u0000e\u0000S\u0000c\u0000r\u0000i\u0000p\u0000t\u0000-\u0000T\u0000a\u0000s\u0000k\u0000-\u0000M\u0000a\u0000n\u0000a\u0000g\u0000e\u0000r\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,12 @@
   },
   "homepage": "https://github.com/miwe-max/TypeScript-Task-Manager#readme",
   "devDependencies": {
+    "@types/node": "^25.9.1",
+    "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@types/prompt-sync": "^4.2.3",
+    "prompt-sync": "^4.2.0"
   }
 }
